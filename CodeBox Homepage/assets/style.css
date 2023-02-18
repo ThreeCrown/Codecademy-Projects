@@ -1,0 +1,556 @@
+/*Framework*/
+* {
+    color: #c9c47b;
+}
+
+body {
+    margin: 0;
+    background-color: #645614;
+    background-image: url("forest-background.png");
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'roboto', sans-serif;
+    src: url('roboto.woff') format('woff'),
+        url('roboto.ttf') format('truetype');
+}
+
+html {
+    font-family: roboto;
+    font-size: 16px;
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: #33330a;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    font-family: roboto;
+    font-size: 1.5rem;
+    align-content: center;
+    width: 10%;
+    padding: 0px 10px;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding-right: 10px;
+    width: 70%;
+}
+
+.link {
+    display: inline-flex;
+    padding: 0px 10px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+a:active {
+    color: #99b44c;
+}
+
+.bannerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.bannerwrap {
+    width: 60%;
+    height: auto;
+    margin-top: 75px;
+    display: flex;
+    border: 5px solid #697d1b;
+    border-radius: 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.banner {
+   width: 100%;
+   height: auto;
+}
+
+.bannerwrap:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(153, 180, 76, .2);
+    z-index: 20;
+}
+
+/*Main*/
+
+/*Mission Section*/
+.mission {
+    width: 100%;
+    display: flex;
+    margin: 500px 5px;
+    justify-content: flex-end;
+}
+
+.missionStatement {
+    background-color: #33330a;
+    width: 30%;
+    padding: 25px 25px;
+    display: flex;
+    margin-right: 10%;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 5px solid #697d1b;
+    border-radius: 2px;
+}
+
+.missionPt1 {
+    color: #99b44c;
+    font-size: 2.75rem;
+    font-weight: 800;
+    margin-right: 10%;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.missionPt2 {
+    color: #697d1b;
+    font-size: 2.268rem;
+    font-weight: 600;
+    text-align: right;
+    align-self: flex-end;
+}
+
+/*Fluff Pictures Section*/
+
+/*Fluff Section*/
+.fluffbox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fluff {
+    display: flex;
+    border: 5px solid #697d1b;
+    border-radius: 2px;
+}
+
+.flufftxtbox {
+    width: 30%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.flufftxttitle {
+    text-align: center;
+}
+
+.flufftxt {
+    text-align: center;
+}
+
+
+/*Fluff 1*/
+
+#fluff1 {
+    overflow: hidden;
+    position: center;
+    align-self: flex-start;
+    width: 1280px;
+    height: 720px;
+    margin: 2%;
+}
+
+.flufftext1 {
+    align-self: center;
+    background-color: #697d1b;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin-left: 5%;
+}
+
+/* Fluff 2*/
+#fluff2 {
+    align-self: flex-end;
+    overflow: hidden;
+    position: center;
+    width: 1280px;
+    height: 720px;
+    margin: 5% 1% 5% 15%;
+}
+
+.flufftext2 {
+    align-self: center;
+    background-color: #33330a;
+    border: 5px solid #697d1b;
+    border-radius: 2px;
+    margin-left: 1%;
+}
+
+/*FLuff 3*/
+.fluff3div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.fluffcontainer-3and4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+}
+
+#fluff3, #fluff4 {
+    overflow: hidden;
+    width: 300px;
+    height: 210px;
+}
+
+.flufftext3 {
+    align-self: center;
+    background-color: #697d1b;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+    margin-top: 1%;
+}
+
+/*Collage Section*/
+
+.collagegrid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 540px) 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.collage {
+    overflow: hidden;
+    max-width: 100%;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+}
+
+.collagefooter {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    width: 960px;
+    height: 540px;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+}
+
+#coltopleft {
+    grid-column: 2;
+    grid-row: 1;
+    width: 960px;
+    height: 540px;
+    object-fit: cover;
+}
+
+#coltopright {
+    grid-column: 3;
+    grid-row: 1;
+    width: 960px;
+    height: 540px;
+    object-fit: cover;
+}
+
+#colbottomleft {
+    grid-column: 2;
+    grid-row: 2;
+    width: 960px;
+    height: 540px;
+    object-fit: cover;
+}
+
+#colbottomright {
+    grid-column: 3;
+    grid-row: 2;
+    width: 960px;
+    height: 540px;
+    object-fit: cover;
+}
+
+/*Features Box*/
+.featuresbox {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.featurepic {
+    width: 775px;
+    width: 700px;
+    object-fit: cover;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+}
+
+.featuretext {
+    text-align: center;
+    background-color: #697d1b;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+#feature1 {
+    margin-right: 5%;
+}
+
+#feature2 {
+    margin-left: 5%;
+}
+
+.featureTitle {
+    display: block;
+}
+
+.featurecontent {
+    display: block;
+    margin: 10px;
+}
+
+/*Employee Section*/
+.notSlaves {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10%;
+
+}
+
+.slavebox {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #33330a;
+    border: 5px solid #697d1b;
+    border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+}
+
+.cryforhelp {
+    font-size: 8px;
+}
+
+.slavetext {
+    margin: 5% 5%;
+    background-color: #697d1b;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+}
+
+.slaveinfo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.slavepic {
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+}
+
+.slave1 {
+    align-self: flex-start;
+    margin-left: 20%;
+}
+
+.slave2 {
+    align-self: flex-end;
+    margin-right: 20%;
+}
+ /*Donation Section*/
+ .donodiv {
+     width: 100%;
+     margin-bottom: 20%;
+     margin-left: 20%;
+ }
+.giveMoney {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    align-content: flex-start;
+    background-color: #697d1b;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pitch {
+    width: 60%;
+    height: auto;
+}
+
+.moneyBtn {
+    background-color: #99b44c;
+    border: 5px solid #33330a;
+    border-radius: 2px;
+    height: 15%;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+/*Footer*/
+footer {
+    display: flex;
+}
+/*Color Pallet Swatches*/
+/*Box Config*/
+.colorPalletSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pallet {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(191, 203, 201, 0.5);
+    color: #33330a;
+    padding: 15px 20px;
+}
+
+.palletTitle {
+    display: flex;
+    width: 100%;
+    color: inherit;
+    text-align: center;
+    font-weight: bold;
+}
+
+.palletlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palletColor {
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.colorbox {
+    height: auto;
+    width: 150px;
+}
+
+.colorN {
+    color: #33330a;
+    text-align: center;
+    font-weight: bold;
+}
+/*ColorConfig*/
+.box1 {
+    background-color: #c9c47b;
+    height: 50px;
+    width: 50px;
+}
+.box2 {
+    background-color: #33330a;
+    height: 50px;
+    width: 50px;
+}
+.box3 {
+    background-color: #8a8427;
+    height: 50px;
+    width: 50px;
+}
+.box4 {
+    background-color: #99b44c;
+    height: 50px;
+    width: 50px;
+}
+.box5 {
+    background-color: #697d1b;
+    height: 50px;
+    width: 50px;
+}
+.box6 {
+    background-color: #8484a8;
+    height: 50px;
+    width: 50px;
+}
+.box7 {
+    background-color: #645614;
+    height: 50px;
+    width: 50px;
+}
+.box8 {
+    background-color: #514d61;
+    height: 50px;
+    width: 50px;
+}
+.box9 {
+    background-color: #Ae5967;
+    height: 50px;
+    width: 50px;
+}

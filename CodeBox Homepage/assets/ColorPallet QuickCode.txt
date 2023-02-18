@@ -1,0 +1,28 @@
+ 
+ ***$$$~~~!!!*** Color Pallet Swatch QuickCode ***!!!~~~$$$***
+ 
+ 
+ 
+
+ $$%%##@@!! HTML
+ 
+ <div>
+            <div class="pallet">
+                <h3>Color Pallet</h3>
+                <ul class="pallet list">
+                <--!-->Change Color Names in Text<--!-->
+                    <li class="palletColor"><div class="colorbox box1"></div><p class="color1">#c9c47b</p></li>
+                    <li class="palletColor"><div class="colorbox box2"></div><p class="color2">#33330a</p></li>
+                    <li class="palletColor"><div class="colorbox box3"></div><p class="color3">#8a8427</p></li>
+                    <li class="palletColor"><div class="colorbox box4"></div><p class="color4">#99b44c</p></li>
+                    <li class="palletColor"><div class="colorbox box5"></div><p class="color5">#697d1b</p></li>
+                    <li class="palletColor"><div class="colorbox box6"></div><p class="color6">#8484a8</p></li>
+                    <li class="palletColor"><div class="colorbox box7"></div><p class="color7">#645614</p></li>
+                    <li class="palletColor"><div class="colorbox box8"></div><p class="color8">#514d61</p></li>
+                    <li class="palletColor"><div class="colorbox box9"></div><p class="color9">#Ae5967</p></li>
+                </ul>
+            </div>
+        </div>
+
+$$%%##@@!! CSS
+

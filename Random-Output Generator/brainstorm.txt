@@ -87,3 +87,19 @@ Conditions: Scores between 80 & 100
     3. A male authority figure would approve of you today.
     4. If you keep this up, you'll be important.
     5. Ok ok, let's just chill now! Nice though.
+
+## Hardball Responses
+Conditions: Scores between 0 & 40
+    1. Bro, for the love of fuck at least go exercise!
+    2. Did you even brush your teeth? Just go do 4 small tasks, MAYBE it'll equal a big task.
+    3. Does someone like this survive the apocolypse? Or even just survive at all? I mean fuck dude. Go chop down a tree, or like, load up the truck and take it to the dump.
+    4. For the love of fuck, get fucking moto, and get that ONE fucking thing done.
+    5. Cool no yeah, you did the shopping at least or KNOW what you need to do for the big thing... Just fucking do it? Or maybe do another thing?
+
+## Softball Responses
+Conditions: Scores between a 40 & 100
+    1. Alright, Alright. Now, you SEE the finish line? Just 2 more things, and you're there baby!
+    2. You're here so you might be thinking about giving up. Stay here, cause you want to be here, but do something big while you're here.
+    3. You're here so you might be thinking about giving up. Stay here, cause you want to be here, but do a couple small things before you veg.
+    4. You're here so you might be thinking about giving up. GO AWAY! Quickly before you rot! Do a couple things around the house for the wife!
+    5. You're here so you might be thinking about giving up. Man, do it. Give up, call it a day. But maybe.....?? One more big thing?.... You wont have to do much else for a few days?

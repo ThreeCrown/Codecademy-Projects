@@ -24,6 +24,7 @@ This can refer to some chores (meaning 1-2 FULLY completed chores), outings, chi
 
 #Data Sets:
 
++++ Nested Function +++
 | Score Data -------|
 |------------------:|
 \ basicShit ------- \
@@ -31,6 +32,7 @@ This can refer to some chores (meaning 1-2 FULLY completed chores), outings, chi
 \ cumlativeShitScore\
 |:*___*___*___*___*:|
 
++++ Object +++
 | Response Arrays ---|
 |-------------------:|
 \ welcomeArray ----- \

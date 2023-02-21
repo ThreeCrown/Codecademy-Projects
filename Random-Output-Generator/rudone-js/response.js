@@ -87,7 +87,7 @@ var fullSend = {
         }
     },
     getResponse: function (gennyScore) {
-        if (typeof score !== "number") {
+        if (typeof gennyScore !== "number") {
             return "Error: Shit broke.";}
         
             var response1;
@@ -136,5 +136,4 @@ function runResponse() {
         console.log(fullSend.getResponse())
   };
 runResponse();
-
 

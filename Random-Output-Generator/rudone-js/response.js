@@ -15,7 +15,8 @@ function gennyScore() {
     var rando2 = Math.floor(Math.random() * 10) + 1;
     var basicShitScore = rando2 * 10;
 
-    return hardShitScore + basicShitScore;
+    return (hardShitScore + basicShitScore) / 1.5;
+    //This will rarely populate the error from the .getResponse method. Too lazy to do the work around because I would have to rewrite the code to suit a different scoring rubric.
 }
 
 //Response Engine Object
@@ -86,39 +87,39 @@ var fullSend = {
             ]
         }
     },
-    getResponse: function (gennyScore) {
-        if (typeof gennyScore !== "number") {
+    getResponse: function (score) {
+        if (typeof score !== "number") {
             return "Error: Shit broke.";}
         
             var response1;
             var response2;
 
             switch(true) {
-                case (gennyScore > 0 && gennyScore <= 19):
+                case (score > 0 && score <= 19):
                     response1 = this.sendIt.response1.lazyFuck[Math.floor(Math.random() * this.sendIt.response2.lazyFuck.length)];
                     response2 = Math.random() < 0.6 ?
                         this.sendIt.response2.hardBall[Math.floor(Math.random() * this.sendIt.response2.hardBall.length)]
                         : this.sendIt.response1.softBall[Math.floor(Math.random() * this.sendIt.response2.softBall)];
                     break;
-                case (gennyScore >= 20 && gennyScore <= 39):
+                case (score >= 20 && score <= 39):
                     response1 = this.sendIt.response1.distracted[Math.floor(Math.random() * this.sendIt.response1.distracted.length)];
                     response2 = Math.random() < 0.8 ?
                         this.sendIt.response2.hardBall[Math.floor(Math.random() * this.sendIt.response2.hardBall.length)]
                         : this.sendIt.response1.softBall[Math.floor(Math.random() * this.sendIt.response2.softBall)];
                     break;
-                case (gennyScore >= 40 && gennyScore <= 59):
+                case (score >= 40 && score <= 59):
                     response1 = this.sendIt.response1.goodNufClub[Math.floor(Math.random() * this.sendIt.response1.goodNufClub.length)];
                     response2 = Math.random() < 0.8 ?
                         this.sendIt.response2.hardBall[Math.floor(Math.random() * this.sendIt.response2.hardBall.length)]
                         : this.sendIt.response1.softBall[Math.floor(Math.random() * this.sendIt.response2.softBall)];
                     break;
-                case (gennyScore >= 60 && gennyScore <= 79):
+                case (score >= 60 && score <= 79):
                     response1 = this.sendIt.response1.goodDay[Math.floor(Math.random() * this.sendIt.response1.goodDay.length)];
                     response2 = Math.random() < 0.8 ?
                         this.sendIt.response2.hardBall[Math.floor(Math.random() * this.sendIt.response2.hardBall.length)]
                         : this.sendIt.response1.softBall[Math.floor(Math.random() * this.sendIt.response2.softBall)];
                     break;
-                case (gennyScore >= 80 && gennyScore <= 100):
+                case (score >= 80 && score <= 100):
                     response1 = this.sendIt.response1.holyHellLG[Math.floor(Math.random() * this.sendIt.response1.holyHellLG.length)];
                     response2 = Math.random() < 0.8 ?
                         this.sendIt.response2.hardBall[Math.floor(Math.random() * this.sendIt.response2.hardBall.length)]
@@ -133,7 +134,6 @@ var fullSend = {
 };
 
 function runResponse() {
-        console.log(fullSend.getResponse())
+        console.log(fullSend.getResponse(gennyScore()))
   };
 runResponse();
-

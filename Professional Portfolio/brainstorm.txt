@@ -1,0 +1,181 @@
+Brandon Sanderson - Mistborn
+*+===========+*
+
+Header Bar
+- Includes:
+    (Top Left)
+    Name
+    (Top Right)
+    About Me
+    Projects
+    Companies
+    Skills & Certifications
+    Contact
+
+*+===========+*
+
+*+===========+*
+About Me Section
+
+    Article-
+        Short Display
+            Hello! My name is Stephan Adams. I am a self taught developer from Texas with a very diverse work history. I have been fortunate enough to have a wide range of exposure to the buisness and
+            customer facing side of the IT industry for over a decade. Having been raised in the infancy of the age of technology has afforded me the unique perspective of people and their relationship
+            with and without technology. I have found meaning in my life by building and delivering technologies for people to enjoy catered to varying niche communities that is both engaging and
+            attractive to use. 
+            
+            Being the founder of my own company, Otter Lodge Studios, and the Chairman of a non-profit community of over 500+ members have been some led me to an attitude centered around large scale 
+            content consumption and creation, as well as solution based excecutions.
+
+        Read More
+
+        Long Display
+            Hello! My name is Stephan Adams. I am a self taught developer from Texas with a very diverse work history. I have been fortunate enough to have a wide range of exposure to the buisness and
+            customer facing side of the IT industry for over a decade. Having been raised in the infancy of the age of technology has afforded me the unique perspective of people and their relationship
+            with and without technology. I have found meaning in my life by building and delivering technologies for people to enjoy catered to varying niche communities that is both engaging and
+            attractive to use. 
+            
+            Being the founder of my own company, Otter Lodge Studios, and the Chairman of a non-profit community of over 500+ members have been some led me to an attitude centered around large scale 
+            content consumption and creation, as well as solution based excecutions. With Otter Lodge Studios, we have been pushing to bring the perfect content publisher for avid fantasy fans to the 
+            Web3 industry. While managing my community, I have had time to develop solutions for not only my community, but others like mine.
+
+            In my free time I spend my time listening to books while I code software I feel could be useful to me or multiple people. If I am being productive that is. Otherwise you will see me
+            spending time exploring nature with my family or playing video games with my son or friends.
+        Picture
+*+===========+*
+
+*+===========+*
+Projects
+    CodeBlock Example Site
+        Dimmed Small picture of site w/ clickable more info button
+            Picture of the site.
+            Article
+            CodeBlock is an example project that I had a lot of fun with while teaching myself to code. It is a showcase of my technical skills, as well as my buisness and marketing sense.
+            The website is a mock buisness that sells two different software products for drones. This company is built upon a possible product line, so the focus was on the idealization of the products, 
+            but mostly centers around the marketing of each product as well as the marketing and report building of the company.
+            Link to site (internal)
+    Verse Ledger
+        dimmed small picture of site w/ clickable more info button
+            Picture of the site.
+            Article
+            Verse Ledger is a project that I undertook to bring a social media service to a gaming community of over 4 million people. I devised an application that would entertwine user's experiences with a specific game that the players are heavily invested in, as well as
+            the communities they take part in that share the same intrest in this game. After bringing those to experinces together as a more ellaborative experience, we focused on connecting all of these players and communities into one network to better support their immersion
+            and connectivity inside and outside of their playtime.
+            Link to site
+    Project Framework
+        dimmed small picture of site w/ clickable more info button
+            Picture of collection
+            Article
+            Picture of the Collection
+            PProject Framework was the first itteration of Otter Lodge Studio's NFT Book Publishing buisness. It is a collection of short stories with fantastic artwork, all wrapped into a first of it's kind interactable book. At the time of it's inception, 
+            the only books that we populating the NFT Web3 industry were PDF flip books with no internal Intelectual Property protective measures. Otter Lodge changed that with Project Framework, bringing Books as hard, Non-Fungible, IP protected assets that people could purchase
+            and trade much like they would regular books.
+            Link to site
+    Eagris
+        dimmed small picture of site w/ clickable more info button
+            Picture of collection
+            Article
+            Picture of Franchise Masthead
+            After starting Project Framework, Otter Lodge Studio's started a full fledged franchise for the IP Eagris. It started as an NFT book & artwork collection that has been extending itself into merchandise & tabletop games, with the project's asspirations be set on
+            movies and tv shows as well. Eagris was Otter Lodge Studio's response to the growing desire of American Consumers, with intrest in fantasy worlds, for a new franchise with the same attractiveness and care that some of the largest franchise's in fantasy have been
+            afforded over the past century without the current subculture of restrictive and non-logical content for the sake of censorship.
+            Link to site
+    MandaCorp Star Citizen Network
+        dimmed small picture of site w/ clickable more info button
+            Picture of site
+            Article
+            MandaCorp is the community I assited in managing and developing alongside Verse Ledger. This community was the first user's and our testbed for Verse Ledger. Managing this community of over 500+ members is one of the greatest feelings of accomplishment that I have
+            achieved, along side the other projects listed here. I started taking part in this community when there was only 80 people, and quickly took the reigns with an amazing administration team to lead us to hundreds of members interacting with eachother on a daily basis.
+            I created a website and discord bot, among other things including branding, marketing, merchandise, and a very popular event schedule that attracts people even from other communities to come and take part. Managing training teams, moderators, administration, and other
+            various members of staff to bring us to the level of community that opperates not much differently than real world corporations, all in the name of entertainment. Our member's longstanding partaking in our community & our continued growth stand as a testament to my
+            dedication to the entertainment of individuals.
+            Link to site
+*+===========+*
+
+*+===========+*
+Companies
+    Support.com
+        While at Support.com I contracted for a fortune 500 company as a Remote Technician who specialized in Network implementation and management. I worked with both individual and buisness clients. While working here for two years, I was promoted twice in my department 
+        and was exposed to what my life could be like if I stayed within the tech industry.
+    Conduent
+        After having worked for Support.com for 2 years, I was offered a position with Conduent for contracting with a Fortune 100 company. I worked for this company for 3 years, being promoted 5 times and transfering departments twice. During this time I was exposed
+        to far more technologies than my previous company. When I seperated from the company, I had made it to being an L4 Remote Technician, working directly with our engineering department on bugs, hardware defects and other technology and end user issues reported to my
+        department. I would work closely with our clients, and our engineering team to ensure a resolution for the customer.
+    Otter Lodge Studios
+        After my experiences working for these 2 companies, as well as a couple not named here, I had accumulated a decade of experience in the IT field. I decided my next step would be to further my understanding of technology, and to increase my experience and knowledge of
+        programming so that I could build a buisness around technology. This is a passion project of mine that has become more or less autonomous and is a great source of pride in my experience, time, and willingness to better my self at every juncter in my career.
+    MandaCorp
+        During my free time, when I'm left to my own devices, I usually either work on my passion projects, or play video games. I discovered a game that is the game I more or less only play these days. I found a community with like minded individuals who also played this game.
+        Over the course of a year I became a part-owner of this community and assisted in growing it to where it is today. Of all my experiences, this experience has given me the most knowledge of not only running a buisness, but creating products and services to attract a larger
+        crowd. 
+*+===========+*
+
+*+===========+*
+Skills
+
+Symbol of each language or application w/ hover info
+HTML 3
+HTML 5
+CSS
+Javascript
+React
+Node.Js 
+Redux
+Python 3
+Git
+GitHub
+Express.Js
+PostgreSQL
+SimpleSQL
+Swagger
+OpenAPI
+Google Suite
+Google Chrome
+Discord
+Windows
+Microsoft Office Suite
+Davinci Black Magic Resolve
+Twitch
+OBS
+SLOBS
+Command Prompt/powershell
+Firefox
+opperates
+VSCode
+Zendesk
+Salesforce
+Webflow
+Figma
+Wix
+Wordpress
+Markdown
+BBcode
+
+Certifications
+Discord Bot course
+Full-Stack Engineering Certification from Codecademy
+Includes:
+Web Development Foundation
+Interactive Website Development
+Front-End Engineering
+Back-End Engineering
+Full-Stack Development
+
+Currently working on Computer Science Certification from Codecademy
+Includes:
+CS101: Intro to Programming w/ Python
+CS102: Data Structures and Algorithms
+CS103: Databases
+CS104: Computer Architecture
+CS105: Discrete Math
+*+===========+*
+
+*+===========+*
+Contact
+
+Email
+Phone Number
+GitHub
+LinkedIn
+
+*+===========+*

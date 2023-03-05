@@ -10,7 +10,7 @@
             <div class="pallet">
                 <h3>Color Pallet</h3>
                 <ul class="pallet list">
-                <--!-->Change Color Names in Text<--!-->
+                <!--Change Color Names in Text-->
                     <li class="palletColor"><div class="colorbox box1"></div><p class="color1">#c9c47b</p></li>
                     <li class="palletColor"><div class="colorbox box2"></div><p class="color2">#33330a</p></li>
                     <li class="palletColor"><div class="colorbox box3"></div><p class="color3">#8a8427</p></li>
@@ -25,4 +25,100 @@
         </div>
 
 $$%%##@@!! CSS
+/*Color Pallet Swatches*/
+/*Box Config*/
+.colorPalletSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pallet {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(191, 203, 201, 0.5);
+    color: #33330a;
+    padding: 15px 20px;
+}
+
+.palletTitle {
+    display: flex;
+    width: 100%;
+    color: inherit;
+    text-align: center;
+    font-weight: bold;
+}
+
+.palletlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palletColor {
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.colorbox {
+    height: auto;
+    width: 150px;
+}
+
+.colorN {
+    color: #33330a;
+    text-align: center;
+    font-weight: bold;
+}
+/*ColorConfig*/
+.box1 {
+    background-color: #c9c47b;
+    height: 50px;
+    width: 50px;
+}
+.box2 {
+    background-color: #33330a;
+    height: 50px;
+    width: 50px;
+}
+.box3 {
+    background-color: #8a8427;
+    height: 50px;
+    width: 50px;
+}
+.box4 {
+    background-color: #99b44c;
+    height: 50px;
+    width: 50px;
+}
+.box5 {
+    background-color: #697d1b;
+    height: 50px;
+    width: 50px;
+}
+.box6 {
+    background-color: #8484a8;
+    height: 50px;
+    width: 50px;
+}
+.box7 {
+    background-color: #645614;
+    height: 50px;
+    width: 50px;
+}
+.box8 {
+    background-color: #514d61;
+    height: 50px;
+    width: 50px;
+}
+.box9 {
+    background-color: #Ae5967;
+    height: 50px;
+    width: 50px;
+}
 

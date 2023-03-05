@@ -1,0 +1,101 @@
+* {
+
+}
+
+
+/*Color Pallet Swatches*/
+/*Box Config*/
+.colorPalletSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pallet {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(191, 203, 201, 0.5);
+    color: #33330a;
+    padding: 15px 20px;
+}
+
+.palletTitle {
+    display: flex;
+    width: 100%;
+    color: inherit;
+    text-align: center;
+    font-weight: bold;
+}
+
+.palletlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palletColor {
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.colorbox {
+    height: auto;
+    width: 150px;
+}
+
+.colorN {
+    color: #33330a;
+    text-align: center;
+    font-weight: bold;
+}
+/*ColorConfig*/
+.box1 {
+    background-color: rgba(22,32,53,1);
+    height: 50px;
+    width: 50px;
+}
+.box2 {
+    background-color: rgba(128,158,234,1);
+    height: 50px;
+    width: 50px;
+}
+.box3 {
+    background-color: rgba(203,212,250,1);
+    height: 50px;
+    width: 50px;
+}
+.box4 {
+    background-color: rgba(78,99,142,1);
+    height: 50px;
+    width: 50px;
+}
+.box5 {
+    background-color: rgba(45,97,168,1);
+    height: 50px;
+    width: 50px;
+}
+.box6 {
+    background-color: rgba(60,78,104,1);
+    height: 50px;
+    width: 50px;
+}
+.box7 {
+    background-color: rgba(76,131,210,1);
+    height: 50px;
+    width: 50px;
+}
+.box8 {
+    background-color: rgba(178,212,251,1);
+    height: 50px;
+    width: 50px;
+}
+.box9 {
+    background-color: rgba(69,107,175,1);
+    height: 50px;
+    width: 50px;
+}

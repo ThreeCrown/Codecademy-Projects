@@ -1,0 +1,36 @@
+/* CSS HEX */
+--big-stone: #162035;
+--portage: #809eea;
+--tropical-blue: #cbd4fa;
+--kashmir-blue: #4e638e;
+--azure: #2d61a8;
+--fiord: #3c4e68;
+--havelock-blue: #4c83d2;
+--sail: #b2d4fb;
+--san-marino: #456baf;
+
+
+/* SCSS HEX */
+$big-stone: #162035;
+$portage: #809eea;
+$tropical-blue: #cbd4fa;
+$kashmir-blue: #4e638e;
+$azure: #2d61a8;
+$fiord: #3c4e68;
+$havelock-blue: #4c83d2;
+$sail: #b2d4fb;
+$san-marino: #456baf;
+
+
+/* SCSS RGB */
+--big-stone: rgba(22,32,53,1);
+--portage: rgba(128,158,234,1);
+--tropical-blue: rgba(203,212,250,1);
+--kashmir-blue: rgba(78,99,142,1);
+--azure: rgba(45,97,168,1);
+--fiord: rgba(60,78,104,1);
+--havelock-blue: rgba(76,131,210,1);
+--sail: rgba(178,212,251,1);
+--san-marino: rgba(69,107,175,1);
+
+

@@ -1,5 +1,91 @@
-* {
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300&family=Montserrat:wght@100;400&family=Roboto+Mono&display=swap');
+
+/*@font-face {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}*/
+
+* {
+    color: rgba(203,212,250,1);
+}
+
+html {
+    font-family: 'Fira Sans';
+}
+
+/*Nav Settings*/
+nav {
+    background-color: rgba(60,78,104,.9);
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Montserrat';
+}
+
+.navLinkContainer {
+
+}
+
+.navLinkBox {
+
+}
+
+.navLink {
+    font-family: 'Montserrat';
+}
+
+#aboutLink {
+
+}
+
+#skillLink {
+
+}
+
+#projectLink {
+
+}
+
+#corpoLink {
+
+}
+
+#contactLink {
+
+}
+
+/* Content Section*/
+body {
+    background-color: rgba(22,32,53,1);
+}
+
+.sectionContainer {
+    background-image: url('./images/mountainBackground.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px 10px;
+    height: 80%;
+    margin-bottom: 900px;
+
+}
+
+h2 {
+    font-family: 'Roboto Mono';
+}
+
+button {
+    font-family: 'Roboto Mono';
 }
 
 
